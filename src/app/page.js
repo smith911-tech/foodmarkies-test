@@ -274,7 +274,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Featured Businesses Section */}
         <section className="mt-12">
           <h2 className="text-3xl font-semibold mb-6">Featured Businesses</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -337,8 +336,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* Customer Testimonials */}
         <section className="mt-12">
           <h2 className="text-3xl font-semibold mb-6">
             What Our Customers Say
@@ -356,8 +353,6 @@ export default function Home() {
             ))}
           </div>
         </section>
-
-        {/* Call to Action */}
         <section className="text-center mt-12 bg-secondary text-white py-16 rounded-lg">
           <h2 className="text-3xl font-bold mb-4">Get Started Today</h2>
           <p className="text-lg mb-6">
@@ -371,16 +366,14 @@ export default function Home() {
             Explore Now
           </a>
         </section>
-        {/* New Section: Blog/Articles Preview */}
         <section className="mt-12">
           <h2 className="text-3xl font-semibold mb-6">
             Latest Stories & Articles
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Example Article 1 */}
             <div className="bg-white rounded-lg shadow-md p-4">
               <Image
-                src="https://cdn.pixabay.com/photo/2017/03/27/13/54/bread-2178874_960_720.jpg" // Replace with your image path
+                src="https://cdn.pixabay.com/photo/2017/03/27/13/54/bread-2178874_960_720.jpg" 
                 alt="Article 1"
                 width={300}
                 height={200}
@@ -400,10 +393,9 @@ export default function Home() {
                 Read More
               </Link>
             </div>
-            {/* Example Article 2 */}
             <div className="bg-white rounded-lg shadow-md p-4">
               <Image
-                src="https://cdn.pixabay.com/photo/2016/07/31/09/25/market-1558658_960_720.jpg" // Replace with your image path
+                src="https://cdn.pixabay.com/photo/2016/07/31/09/25/market-1558658_960_720.jpg" 
                 alt="Article 2"
                 width={300}
                 height={200}
@@ -423,10 +415,9 @@ export default function Home() {
                 Read More
               </Link>
             </div>
-            {/* Example Article 3 */}
             <div className="bg-white rounded-lg shadow-md p-4">
               <Image
-                src="https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg" // Replace with your image path
+                src="https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg"
                 alt="Article 3"
                 width={300}
                 height={200}
@@ -449,7 +440,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* About Us Section */}
         <section className="mt-12">
           <h2 className="text-3xl font-semibold mb-6">About Foodmarkies</h2>
           <p className="text-gray-700">
