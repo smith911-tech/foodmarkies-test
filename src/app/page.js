@@ -35,14 +35,13 @@ export default function Home() {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-4 py-3 md:py-4">
           <div className="flex items-center justify-between">
-            {/* Logo */}
             <Link href="/" className="flex items-center">
               <Image
                 src="https://foodmarkies.com.au/wp-content/uploads/2022/07/logo-horizontal.png"
                 alt="Foodmarkies Logo"
-                width={180} // Adjust as needed
-                height={70} // Adjust as needed
-                priority // Preload logo for faster loading
+                width={180} 
+                height={70} 
+                priority 
                 className="mr-2"
               />
             </Link>
@@ -159,7 +158,6 @@ export default function Home() {
                 List Your Business
               </a>
             </div>
-            {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden text-gray-700 focus:outline-none"
@@ -189,8 +187,6 @@ export default function Home() {
             </button>
           </div>
         </div>
-
-        {/* Mobile Menu (Conditionally Rendered) */}
         <div
           className={`md:hidden bg-gray-50 py-2 px-4 ${
             isMobileMenuOpen ? "block" : "hidden"
@@ -237,7 +233,6 @@ export default function Home() {
         </div>
       </header>
       <main className="container mx-auto px-4 py-8">
-        {/* Hero Section */}
         <section className="text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Australia’s Multicultural Food Hub
@@ -246,7 +241,6 @@ export default function Home() {
             Find unique culinary experiences and support local communities.
           </p>
 
-          {/* Call to Action Buttons */}
           <div className="flex justify-center space-x-4">
             <a
               href="https://foodmarkies.com.au/multiculturalfoodmarketplace/"
@@ -262,7 +256,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Image Banner */}
           <div className="mt-12 mx-auto ">
             <Image
               src="https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg"
